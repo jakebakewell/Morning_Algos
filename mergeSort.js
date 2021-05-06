@@ -25,7 +25,7 @@ const combine = (arr1, arr2) => {
 
 const mergeSort = (arr) => {
     const halfLen = Math.floor(arr.length / 2);
-    if (arr.length < 2) {
+    if (arr.length == 1) {
         return arr;
     }
     const leftSide = arr.splice(0, halfLen);
